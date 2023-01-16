@@ -6,7 +6,7 @@ import Search from './Search'
 function Header({ handleSearch }) {
   return (
     <Container>
-      <h1>recipclopedia</h1>
+      <h1>recipedia</h1>
       <Search handleSearch={handleSearch}/>
     </Container>
   )
@@ -26,6 +26,7 @@ const Container = styled.header`
 
   h1 {
     width: 40%;
+    color: #fff;
   }
 
   @media (max-width: 481px){

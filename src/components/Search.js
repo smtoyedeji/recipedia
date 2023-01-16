@@ -49,6 +49,7 @@ const SearchBar = styled.input`
   width: 100%;
   outline: none;
   border: transparent;
+  font-size: 16px;
 
   ::placeholder {
       font-size: 16px;
